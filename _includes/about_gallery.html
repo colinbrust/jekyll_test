@@ -1,0 +1,15 @@
+<!-- credit to https://github.com/codingmarket07/our-team-section-ap30 for layout and css  -->
+<div class="wrapper-about">
+    <div class="our_team">
+        {% for person in include.team %}
+        <div class="team_member">
+            <div class="member_img">
+                <img src="{{ person.photo }}" alt="{{ person.name }}">
+            </div>
+            <h3>{{ person.name }}</h3>
+            <h4>{{ person.position }}</h4>
+            <p> {{ person.bio }}</p>
+        </div>
+        {% endfor %}
+    </div> 
+</div>

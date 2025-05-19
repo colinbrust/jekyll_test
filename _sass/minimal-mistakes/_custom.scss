@@ -1,0 +1,253 @@
+@media screen and (min-width: 1024px){
+    .iframe_size {
+        width: 100%;
+        height: 350px
+    }
+    .left_bbox {
+        float: left; 
+        // border:1px solid black; 
+        margin-right: 15px; 
+    }
+    .right_bbox {
+        float: right; 
+        // border:1px solid black; 
+        margin-left: 15px; 
+    }
+    .bbox_dims {
+        margin-bottom: 25px;
+        width: 60%
+    }
+    
+}
+
+/*###Tablet(medium)###*/
+@media screen and (min-width : 768px) and (max-width : 1023px){
+    .iframe_size {
+        width: 100%;
+        height: 350px
+    }
+
+    .left_bbox {
+        float: center; 
+        // border:1px solid black; 
+        margin-right: 0px; 
+    }
+
+    .right_bbox {
+        float: right; 
+        // border:1px solid black; 
+        margin-left: 0px; 
+    }
+
+    .bbox_dims {
+        margin-bottom: 25px;
+        width: 60%
+    }
+    
+}
+
+/*### Smartphones (portrait and landscape)(small)### */
+@media screen and (min-width : 0px) and (max-width : 767px) {
+    .iframe_size {
+        width: 100%;
+        height: 300px
+    }
+
+    .left_bbox {
+        float: center; 
+        // border:1px solid black; 
+        margin-right: 0px; 
+    }
+
+    .right_bbox {
+        float: right; 
+        // border:1px solid black; 
+        margin-left: 0px; 
+    }
+
+    .bbox_dims {
+        margin-bottom: 25px;
+        width: 95%
+    }
+}
+
+// styling from https://dmnfarrell.github.io/software/jekyll-galleries 
+
+.image-gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(600px, 1fr));
+    justify-content: center;
+    padding: 4px;
+}
+
+.box {
+    flex-basis: 100%;
+    width: 100%;
+    padding: 10px;
+    margin: 2px;
+}
+
+.const-text-box {
+    height: 50px;
+    width: 100%;
+    margin: 5px; 
+    text-align: center;
+}
+
+.img-gallery {
+    width: 100%;
+    height: minmax(200px, auto);
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.img-gallery:hover {
+    transform: scale(1.05);
+}
+
+.mdc-grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-auto-rows: auto;
+    align-items: center;
+    grid-gap: 25px;
+    width: 95%;
+}
+
+// *{
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+//   font-family: 'Exo 2', sans-serif;
+// }
+
+.wrapper-about{
+  margin-top: 60px;
+  text-align: center;
+}
+
+.wrapper-h1{
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.our_team{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our_team .team_member{
+  width: 250px;
+  margin: 5px;
+  background: #fff;
+  padding: 20px 10px;
+}
+
+.our_team .team_member .member_img{
+  background: #e9e5fa;  
+  max-width: 190px;
+  width: 100%;
+  height: 190px;
+  margin: 0 auto;
+  // border-radius: 50%;
+  padding: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.our_team .team_member .member_img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.our_team .team_member h3{
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  margin: 15px 0 0px;
+}
+
+.our_team .team_member h4{
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    margin: 15px 0 0px;
+}
+
+
+.our_team .team_member p{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.scroll_box {
+    max-height: 400px;
+    width: 50%; 
+    overflow-y: scroll;
+}
+
+.wrapper-video {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.video {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    max-width: 400px;
+    width: 100%;
+}
+
+.video:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.video_frame {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video_frame iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.video p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+}

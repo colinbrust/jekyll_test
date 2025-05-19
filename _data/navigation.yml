@@ -1,0 +1,112 @@
+# main links
+main:
+  - title: "Mesonet"
+    url: /mesonet/
+  - title: "Drought"
+    url: /drought/
+  - title: "Climate"
+    url: /climate/
+  - title: "Streamflow"
+    url: /streamflow/
+  - title: "News"
+    url: /posts/
+  - title: "Research"
+    url: /research/
+  - title: "Projects"
+    url: /projects/
+  - title: "About"
+    url: /about/
+
+mesonet-sidebar:
+  - title: "Montana Mesonet Overview"
+    url: /mesonet/
+    children: 
+      - title: "Mesonet Stations"
+        url: /mesonet/stations
+      - title: "UMRB Project"
+        url: /mesonet/umrb/
+      - title: "Variables Measured"
+        url: /mesonet/variables/
+  - title: "Agricultural Tools"
+    url: /mesonet/ag_tools/
+    children: 
+      - title: "Reference ET"
+        url: /mesonet/ag_tools/etr/
+      - title: "Feels Like Temperature"
+        url: /mesonet/ag_tools/feels_like/
+      - title: "Growing Degree Days"
+        url: /mesonet/ag_tools/gdds/
+        children:
+          - title: "Barley GDDs"
+            url: /mesonet/ag_tools/gdds/barley/
+          - title: "Canola GDDs"
+            url: /mesonet/ag_tools/gdds/canola/
+          - title: "Corn GDDs"
+            url: /mesonet/ag_tools/gdds/corn/
+      - title: "Soil Profile Plots"
+        url: /mesonet/ag_tools/soil_profile/
+      - title: "Livestock Risk Index"
+        url: /mesonet/ag_tools/risk/
+      - title: "Soil Water Potential"
+        url: /mesonet/ag_tools/swp/
+  - title: "Montana Mesonet Tutorials"
+    url: /mesonet/tutorials/
+  - title: "Montana Mesonet API"
+    url: /mesonet/api/
+  - title: "Montana Mesonet QA/QC"
+    url: /mesonet/qaqc/
+  - title: Montana Mesonet Citation
+    url: /mesonet/citation/
+
+climate-sidebar:
+  - title: "Overview"
+    url: /climate/
+
+about-sidebar:
+  - title: "About"
+    url: /about/
+  - title: "MCO Team"
+    url: /about/team/
+  # - title: "History"
+  #   url: /about/history/
+  - title: "Partnerships"
+    url: /about/partnerships/
+  - title: "Job Postings"
+    url: /about/jobs/
+  - title: "User Agreement"
+    url: /about/agreement/
+  - title: Support Us
+    url: /about/support/
+  
+
+projects-sidebar:
+  - title: "Overview"
+    url: /projects/
+  - title: "Climate Normals"
+    url: /projects/normals/
+    children: 
+      - title: Climate Atlas
+        url: /projects/normals/atlas/
+  - title: "Montana State Library"
+    url: /projects/msl/
+  - title: "Native Climate"
+    url: /projects/native-climate/
+  - title: "Montana Drought & Climate"
+    url: /projects/mdc/
+    children:
+      - title: MDC Overview
+        url: /projects/mdc/overview/
+      - title: MDC Team
+        url: /projects/mdc/team/
+      - title: MDC Newsletters
+        url: /projects/mdc/news/
+
+research-sidebar: 
+  - title: "Publications List"
+    url: /research/
+  - title: "Highlighted Publications"
+    children:
+      - title: "IrrMapper"
+        url: /research/irrmapper/
+      - title: "Drought Timescales"
+        url: /research/timescales/

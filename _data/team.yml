@@ -1,0 +1,213 @@
+- name: "Kelsey Jencso"
+  position: "State Climatologist"
+  photo: "/assets/images/jencso.jpg"
+  bio: "Kelsey is the W.A. Franke Endowed Professor of Watershed Hydrology and the State Climatologist. As State Climatologist, he helps Montanans understand and prepare for the future."
+  team: "clim"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:kelsey.jencso@mso.umt.edu"
+
+- name: "Zach Hoylman"
+  position: "Assistant State Climatologist"
+  photo: "/assets/images/hoylman.jpg"
+  bio: "Zach is a research assistant professor at UM and Montana's assistant state climatologist. His research focuses on ecology, hydrology and drought in Montana"
+  team: "clim"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:zachary.hoylman@mso.umt.edu"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/zhoylman"
+
+- name: "Kyle Bocinsky"
+  position: "Director of Climate Extension"
+  photo: "/assets/images/bocinsky.jpg"
+  bio: "Kyle is a research assistant professor at UM and the MCO's Director of Climate Extension. Kyle helps make climate data and services accessible for all Montanans."
+  team: "it"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:kyle.bocinsky@umontana.edu"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/bocinsky"
+
+- name: "Kevin Hyde"
+  position: "Montana Development Manager"
+  photo: "/assets/images/hyde.jpeg"
+  bio: "Kevin works with agricultural producers and land managers to site climate monitoring stations, guide data application, and to learn information needed to support production and management decisions."
+  team: "mes"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:kevin.hyde@mso.umt.edu"
+
+- name: "Joel Martin"
+  position: "Lead Hydrologic Technician"
+  photo: "/assets/images/joel_martin.jpg"
+  bio: "Joel builds, troubleshoots and services the weather stations to ensure they report reliable, accurate data for the Montana Climate Office."
+  team: "mes"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:joel.martin@mso.umt.edu"
+
+- name: "Annie McVay"
+  position: "Program & Fiscal Coordinator"
+  photo: "/assets/images/mcvay.jpg"
+  bio: "Annie oversees the financial management and reporting requirements of the office and supports operational efforts of the various components and programs within the MCO."
+
+- name: "Maureen I. McCarthy, PhD"
+  position: "Affiliate Faculty at MCO"
+  photo: "/assets/images/mccarthy_crop.png"
+  bio: "Maureen works with tribal communities to enhance climate resilience."
+
+- name: "Colin Brust"
+  position: "Climate Data Specialist"
+  photo: "/assets/images/brust.jpg"
+  bio: "Colin develops and maintains the API, dashboard and database for the Montana Mesonet."
+  team: "it"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:colin.brust@mso.umt.edu"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/colinbrust"
+
+- name: "Wes Short"
+  position: "Hydrologic Technician"
+  photo: "/assets/images/short.png"
+  bio: "Wes is a veteran, biologist, and trades laborer. He helps construct the stations that are collecting the MCO's climate data."
+  team: "mes"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:wes.short@mso.umt.edu"
+
+- name: "John Stapleton"
+  position: "Hydrologic Technician"
+  photo: "/assets/images/stapleton_crop.png"
+  bio: "John tests, maintains, troubleshoots and installs our HydroMet stations. He also engages with landowners and collaborators once stations are complete."
+  team: "int"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:john.stapleton@umconnect.umt.edu"
+
+- name: "Adam Cook"
+  position: "Hydrologic Technician"
+  photo: "/assets/images/cook.jpg"
+  bio: "Adam helps to build, operate, and maintain the Montana Mesonet"
+  links:
+  - label: "Email"
+    icon: "fas fa-fw fa-envelope-square"
+    url: "mailto:adam.cook@mso.umt.edu"
+
+- name: "Will Kersey"
+  position: "Hydrologic Technician"
+  photo: "/assets/images/kersey.jpg"
+  bio: "Will prepares, installs, troubleshoots, and maintains Montana Mesonet weather stations."
+  links:
+  - label: "Email"
+    icon: "fas fa-fw fa-envelope-square"
+    url: "mailto:will.kersey@mso.umt.edu"
+
+- name: "Guy Marshall"
+  position: "Hydrologic Technician"
+  photo: "/assets/images/marshall2.jpg"
+  bio: "Guy builds and maintains the HydroMet network of weather stations and specializes in soil data collection and soil sensor probe installation."
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:guy.marshall@mso.umt.edu"
+
+- name: "Brett Kaplan"
+  position: "Hydrologic Technician"
+  photo: "/assets/images/kaplan.jpeg"
+  bio: "Brett assists with the maintenance of the Montana Mesonet and contributes to outreach and educational initiatives at the MCO"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:brett.kaplan@mso.umt.edu"
+
+- name: "David Ketchum"
+  position: "Hydrologist"
+  photo: "/assets/images/ketchum.jpg"
+  bio: "David received his Ph.D. from University of Montana in 2023 and currently works as a research affiliate at the Climate Office and as a hydrologist at the United States Geological Survey's Wyoming-Montana Water Science Center."
+  team: "grad"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:david2.ketchum@umconnect.umt.edu"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dgketchum"
+
+# - name: "Drew Painter"
+#   position: "Mesonet Assistant"
+#   photo: "/assets/images/painter.png"
+#   bio: "Drew is a veteran of the 82D Airborne Division and an aspiring water quality scientist. He helps erect the towers and other infrastructure of the Mesonet stations."
+#   team: "mesonet"
+#   links: 
+#     - label: "Email"
+#       icon: "fas fa-fw fa-envelope-square"
+#       url: "mailto:drew.painter@umconnect.umt.edu"
+
+# - name: "Ethan Jones"
+#   position: "Mesonet Assistant"
+#   photo: "/assets/images/jones.png"
+#   bio: "Ethan is an undergraduate student studying Forestry, with hopes of someday being a forest manager. He helps build weather stations for the Mesonet as well as assisting in other infrastructure related to the Mesonet."
+#   team: "mesonet"
+#   links: 
+#     - label: "Email"
+#       icon: "fas fa-fw fa-envelope-square"
+#       url: "mailto:ethan2.jones@umconnect.umt.edu"
+
+- name: "Fin Malone"
+  position: "Master's Student/Research Assistant"
+  photo: "/assets/images/malone.jpg"
+  bio: "Fin Malone is a graduate student in Systems Ecology and conducts field research investigating the water-use and growth of trees in opposing microclimatic conditions."
+  team: "int"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:fin.malone@umconnect.umt.edu"
+
+# - name: "Alex Mausshardt"
+#   position: "Mesonet Assistant"
+#   photo: "/assets/images/mausshardt_crop.png"
+#   bio: "Alex helps prepare, install and maintain the Montana Mesonet."
+
+# - name: "Kenzye Spears"
+#   position: "Mesonet Assistant"
+#   photo: "/assets/images/spears.png"
+#   bio: "Kenzye builds and maintains the AgriMet network of weather stations."
+
+- name: "Toby Dunn"
+  position: "Undergraduate Research Assistant"
+  photo: "/assets/images/dunn.jpeg"
+  bio: "Toby is an undergraduate researcher focused on soil water hydrology and operation of the soils laboratory."
+
+- name: "Ryan Fleetwood"
+  position: "Undergraduate Research Assistant"
+  photo: "/assets/images/fleetwood_crop.png"
+  bio: "Ryan is an undergraduate student studying Environmental Science & Sustainability - Water Resources. His work involves snowpack modeling."
+
+- name: "Daniel Martin"
+  position: "Undergraduate Research Assistant"
+  photo: "/assets/images/martin.png"
+  bio: "Daniel is an undergraduate student studying Environmental Science and Pre-Law.  His work involves climate outreach."
+
+- name: "Paige Johnson"
+  position: "Native Climate Intern"
+  photo: "/assets/images/bio-photo-2.jpg"
+  bio: ""
+  team: "int"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:paigenkjohnson@gmail.com"
+
